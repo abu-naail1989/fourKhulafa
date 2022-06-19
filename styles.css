@@ -4,15 +4,16 @@ body {
 }
 
 #main {
-  background: rgb(128, 128, 128, 0.5);
+  background: rgb(0, 0, 0, 0.5);
 }
 #image,
 #img-caption {
   display: block;
   width: 95vw;
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
   margin: 50px auto;
+  object-fit: cover;
 }
 #title {
   width: 100%;
@@ -40,20 +41,7 @@ h3 {
 a {
   text-decoration: none;
 }
-.container {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 .btn {
   display: flex;
 }
@@ -66,14 +54,15 @@ button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   margin: auto;
 
-  background: gray;
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 7px;
 }
 button a {
-  color: white;
+  color: black;
+  font-weight: 700;
 }
 button:hover {
-  background: black;
-  color: gray;
+  background: greenyellow;
+  color: black;
 }
