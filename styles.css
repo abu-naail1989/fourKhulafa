@@ -1,0 +1,79 @@
+body {
+  background: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+  background: rgb(128, 128, 128, 0.5);
+}
+#image,
+#img-caption {
+  display: block;
+  width: 95vw;
+  max-width: 100%;
+  height: auto;
+  margin: 50px auto;
+}
+#title {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 100px;
+}
+.secondary-title {
+  width: 100%;
+  text-align: center;
+  text-transform: lowercase;
+}
+#tribute-info {
+  max-width: 80vw;
+  text-align: left;
+  margin: 5px auto;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  padding: 20px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn {
+  display: flex;
+}
+
+button {
+  text-transform: uppercase;
+  font-size: 24px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin: auto;
+
+  background: gray;
+  border-radius: 10px;
+  padding: 7px;
+}
+button a {
+  color: white;
+}
+button:hover {
+  background: black;
+  color: gray;
+}
